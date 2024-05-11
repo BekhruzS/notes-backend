@@ -45,12 +45,14 @@ MIDDLEWARE = [
 SITE_ID = 1
 
 CORS_ORIGIN_WITELIST = [
-    "https://notes-backend-b.vercel.app/"
+    "https://notes-backend-b.vercel.app/",
+    "https://notes-frontend-b.vercel.app/"
 
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://notes-backend-b.vercel.app/"
+    "https://notes-frontend-b.vercel.app/"
 
 ]
 
