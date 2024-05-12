@@ -52,12 +52,13 @@ CORS_ORIGIN_WITELIST = [
 
 CSRF_TRUSTED_ORIGINS = [
     "https://notes-backend-b.vercel.app/"
-    "https://notes-frontend-b.vercel.app/"
+    
 
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://notes-backend-b.vercel.app/"
+    "https://notes-backend-b.vercel.app/",
+    "https://notes-frontend-b.vercel.app/"
      
 ]
 
